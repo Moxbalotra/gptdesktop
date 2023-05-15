@@ -54,8 +54,20 @@ h2 {
 }
 
 /* Portfolio styles */
-.project {
-  margin-bottom: 20px;
+.slider-container {
+  max-width: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
 }
 
 /* Footer styles */
